@@ -46,7 +46,7 @@ if __name__ == "__main__":
     alpha = 0.9         # Biot coefficient [-]
 
     # Gaussian Distribution parameters for Poisson's Ratio (nu)
-    nu_mean = 0.25      # Mean
+    nu_mean = 0.1      # Mean
     nu_sigma = 0.05     # Standard deviation
     num_samples = 100   # Number of Monte Carlo realizations
 
