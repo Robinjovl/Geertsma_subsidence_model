@@ -51,7 +51,7 @@ if __name__ == "__main__":
     num_samples = 100   # Number of Monte Carlo realizations
 
     # Spatial Domain (-30 km to +30 km)
-    x_min, x_max = -30000.0, 30000.0  # [m]
+    x_min, x_max = -3000.0, 3000.0  # [m]
     num_points = 601
     r_vec = np.linspace(x_min, x_max, num_points)
     # =========================================================================
